@@ -1,2 +1,28 @@
 this is About HAMS
 to solve the problem of city hospital we building HAMS
+
+
+sudo apt update (cmd)
+sudo apt-get install docker.io
+sudo apt install git
+sudo apt install nano
+
+file create //html => (open git bush) => git init 
+				      git add .
+				      git commit -m "first commit"
+	create new repository in git (run the below commands in git bush )
+
+git clone https..... (cmd)
+ls 
+cd {folder} => ls
+
+nano Dockerfile (FROM nginx:alpine
+                 COPY . /usr/share/nginx/html)-> ctrl o ,ctrl x
+
+sudo docker build -t name . 
+
+sudo docker run -t -p 80:80 name 
+	//stoping//
+// sudo docker ps
+// copy id
+//sudo docker stop id
